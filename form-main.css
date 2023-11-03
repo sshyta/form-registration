@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600&display=swap');
+
+
+body {
+    margin: 300px;
+    padding: 0;
+    display: flex;
+    background-color: #888888;
+    justify-content: center;
+}
+
+.wrap-login {
+    width: 457px;
+    height: 620px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 30px;
+}
+
+form {
+    font-family: 'Arimo';
+    display: block;
+    padding-left: 92px;
+    padding-right: 92px;
+    padding-top: 88px;
+    padding-bottom: 83px;
+}
+
+.button-Entrance {
+    font-family: 'Arimo';
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.button-Registration {
+    font-family: 'Arimo';
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.forgot-password {
+    font-family: 'Arimo';
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.Entrance {
+    width: 233px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: #F8F1FF;
+    margin-top: 39px;
+    padding: 0 20px;
+}
+
+.password {
+    width: 233px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: #F8F1FF;
+    margin-top: 9px;
+    padding: 0 20px;
+}
+
+.ent-container {
+    position: relative;
+}
+
+.ent-container img {
+    position: absolute;
+    right: 12px;
+    bottom: 16px;
+}
+
+.pass-container {
+    position: relative;
+}
+
+.pass-container img {
+    position: absolute;
+    right: 10px;
+    bottom: 35px;
+}
+
+.btn-container {
+    position: relative;
+}
+
+.btn-container img {
+    position: relative;
+    bottom: 62px;
+    left: 25px;
+}
+
+input {
+    outline: none;
+    border: none;
+    border: solid 1px #f2f2f2;
+    padding: 0;
+}
+
+.checked {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    margin-top: 21px;
+    margin-right: 9px;
+}
+
+.checkbox:checked {
+    background-color: #985ACE;
+}
+
+.btn {
+    font-family: 'Arimo';
+    width: 273px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: #985ACE;
+    outline: none;
+    border: none;
+    border: solid 1px #f2f2f2;
+    padding: 0;
+    color: #F8F1FF;
+    margin-top: 11px;
+    margin-bottom: 32px;
+}
+
+.btn2 {
+    font-family: 'Arimo';
+    font-size: 14px;
+    width: 273px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: #ffffff;
+    outline: none;
+    border: none;
+    border: solid 1px #985ACE;
+    padding: 0;
+    color: #000000;
+    margin-top: 11px;
+    margin-bottom: 32px;
+}
